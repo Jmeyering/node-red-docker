@@ -1,5 +1,5 @@
 ARG NODE_VERSION=8
-FROM hypriot/rpi-node:${NODE_VERSION}
+FROM arm32v7/node:${NODE_VERSION}
 
 # add support for gpio library
 RUN apt-get update
